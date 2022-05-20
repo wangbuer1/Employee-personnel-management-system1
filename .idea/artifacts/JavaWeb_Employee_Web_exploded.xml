@@ -1,0 +1,22 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="JavaWeb_Employee:Web exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/JavaWeb_Employee_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="JavaWeb_Employee/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="JavaWeb_Employee" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/WebContent/WEB-INF/lib/taglibs-standard-impl-1.2.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/WebContent/WEB-INF/lib/taglibs-standard-spec-1.2.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/WebContent/WEB-INF/lib/taglibs-standard-compat-1.2.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/WebContent/WEB-INF/lib/taglibs-standard-jstlel-1.2.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/WebContent/WEB-INF/lib/mysql-connector-java-5.0.4-bin.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/WebContent/WEB-INF/lib/mysql-connector-java-3.0.12-bin.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/WebContent/WEB-INF/lib/mysql-connector-java-3.1.12-bin.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
